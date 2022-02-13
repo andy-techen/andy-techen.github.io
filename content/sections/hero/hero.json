@@ -1,18 +1,18 @@
 {
-  "intro": "Hej",
+  "intro": "Hi",
   "image": {
-    "src": "../../images/waving-hand.png",
+    "src": "../../images/waving-hand-light.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Gatsby Starter",
+  "title": "I'm Andy Chen!",
   "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
-    "suffix": "."
+    "prefix": "Data x Product @ ",
+    "highlight": "U-M",
+    "suffix": ""
   },
   "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
   "socialProfiles": {
     "from": ["LinkedIn", "Medium", "Github", "Mail"],
-    "showIcons": false
+    "showIcons": true
   }
 }
