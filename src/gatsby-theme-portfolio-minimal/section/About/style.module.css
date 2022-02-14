@@ -16,6 +16,7 @@
 }
 
 .About .Image {
+    border-radius: 0;
     box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.16);
     filter: grayscale(20%) contrast(1) brightness(90%);
 }
