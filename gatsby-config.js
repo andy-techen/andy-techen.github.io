@@ -1,6 +1,5 @@
 module.exports = {
   plugins: [
-    `gatsby-plugin-offline`,
     {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
