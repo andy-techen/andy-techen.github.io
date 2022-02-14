@@ -1,0 +1,9 @@
+body[data-theme='lightTheme'] {
+    --background-color: #fafafa;
+    --card-background-color: #fafafa;
+}
+
+body[data-theme='darkTheme'] {
+    --background-color: #121212;
+    --card-background-color: #1c1c1c;
+}
