@@ -1,47 +1,37 @@
 {
-  "name": "andy-techen-portfolio",
+  "name": "andy-techen-github-io",
   "version": "1.0.0",
-  "description": "Andy Chen's Portfolio",
+  "private": true,
   "scripts": {
-    "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
-  },
-  "engines": {
-    "node": ">=16.0.0"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky"
   },
   "dependencies": {
-    "gatsby": "^4.0.2",
-    "gatsby-theme-portfolio-minimal": "latest",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "gray-matter": "^4.0.3",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   },
-  "author": "Andy Chen <andy27479@gmail.com>",
-  "license": "0BSD",
-  "starter-name": "andy-techen-portfolio",
-  "homepage": "https://github.com/andy-techen/andy-techen.github.io",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/andy-techen/andy-techen.github.io.git"
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,json,md,css}": "prettier --write"
   },
-  "bugs": {
-    "url": "https://github.com/andy-techen/andy-techen.github.io/issues"
-  },
-  "keywords": [
-    "react",
-    "gatsby",
-    "gatsby-theme",
-    "PWA",
-    "portfolio",
-    "showcase",
-    "minimal",
-    "animations",
-    "dark-mode",
-    "gdpr-compliant"
-  ],
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.35",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "postcss": "^8.4.0",
+    "prettier": "^3.8.2",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.0.0"
   }
 }

@@ -1,0 +1,26 @@
+[
+  { "name": "Python", "category": "Programming" },
+  { "name": "R", "category": "Programming" },
+  { "name": "JavaScript", "category": "Programming" },
+  { "name": "Java", "category": "Programming" },
+  { "name": "Bash", "category": "Programming" },
+
+  { "name": "SQL", "category": "Analytics & ML" },
+  { "name": "Tableau", "category": "Analytics & ML" },
+  { "name": "Power BI", "category": "Analytics & ML" },
+  { "name": "scikit-learn", "category": "Analytics & ML" },
+  { "name": "TensorFlow", "category": "Analytics & ML" },
+  { "name": "PySpark", "category": "Analytics & ML" },
+
+  { "name": "Django", "category": "Development" },
+  { "name": "Celery", "category": "Development" },
+  { "name": "React", "category": "Development" },
+  { "name": "AWS", "category": "Development" },
+  { "name": "GCP", "category": "Development" },
+  { "name": "Redis", "category": "Development" },
+  { "name": "Git", "category": "Development" },
+  { "name": "Grafana", "category": "Development" },
+  { "name": "Postman", "category": "Development" },
+  { "name": "Figma", "category": "Development" },
+  { "name": "Claude Code", "category": "Development" }
+]
